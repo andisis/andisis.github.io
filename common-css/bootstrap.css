@@ -4893,6 +4893,15 @@ a.badge:focus, a.badge:hover {
   background-color: #025aa5;
 }
 
+.badge-secondary {
+  background-color: #fff;
+  color: #333;
+}
+
+.badge-secondary[href]:focus, .badge-secondary[href]:hover {
+  background-color: #f0f0f0;
+}
+
 .badge-success {
   background-color: #5cb85c;
 }
