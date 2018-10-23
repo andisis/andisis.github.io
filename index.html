@@ -17,6 +17,7 @@
 		<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
 	</head>
 	<body>
+		<div id="preloader"></div>
 		<header>
 			<div class="container">
 				<div class="heading-wrapper">
@@ -290,7 +291,7 @@
 					<figure class="imghvr-push-up">
 						<img src="images/portfolio/kaospolos.jpg" alt="kaospolos.co.id">
 					    <figcaption class="text-center">
-				        	Kaosolos.co.id Wesbite<br/><span class="badge badge-secondary">SEO + Yii + Bootstrap + jQuery</span><br/><span class="badge badge-secondary">2012</span><br/><br/>
+				        	Kaospolos.co.id Wesbite<br/><span class="badge badge-secondary">SEO + Yii + Bootstrap + jQuery</span><br/><span class="badge badge-secondary">2012</span><br/><br/>
 				        </figcaption>
 				    </figure>
 				</div><!-- p-item -->
@@ -433,5 +434,11 @@
 		<script src="common-js/progressbar.min.js"></script>
 		<script src="common-js/jquery.fluidbox.min.js"></script>
 		<script src="common-js/scripts.js"></script>	
+		<script>
+			// // preloader
+			$(window).on('load', function() {
+			    $("#preloader").fadeOut("slow");
+			})
+		</script>
 	</body>
 </html>
